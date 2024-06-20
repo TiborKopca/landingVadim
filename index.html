@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+  <>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- SEO = Básico -->
-    <!-- Cada página del sitio tiene que ser diferente el título y la descripción -->
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <!-- TITLE -->
+    <title>Vadim Secuestrado</title>
+
+    <meta name="author" content="Luis & Tibor" />
+    <meta name="language" content="es" />
+    <meta name="robots" content="index, follow" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="title" content="Vadim Secuestrado" />
+    <meta name="description" content="El cantante Vadim Secuestrado" />
+    <meta name="keywords" content="El conocido cantante Vadim Secuestrado" />
 
     <!-- Etiquetas Open Graph y Twitter Card, para crear el SEO de Redes Sociales -->
-    <meta property="og:title" content="Título de tu página" />
-    <meta property="og:description" content="Descripción de tu página" />
-    <meta
-      property="og:image"
-      content="URL de la imagen que quieres mostrar en las redes sociales"
-    />
-    <meta property="og:url" content="URL de tu página" />
-    <meta property="og:type" content="website" />
+     <!-- SOCIAL NETWORKS META -->
+     <meta property="og:title" content="Vadi Secuestrado" />
+     <meta property="og:description" content="Vadi es inocente" />
+     <meta property="og:image" content="./img/social/VadiEsInocente_redes.avif" />
+     <!-- <meta
+       property="og:image"
+       content="https://tiborkopca.github.io/Cats_website/img/infographic2.avif"
+     /> -->
+
+     <meta property="og:url" content="URL de tu página" />
+     <meta property="og:type" content="website" />
+     <meta property="og:title" content="" />
+     <meta property="og:description" content="" />
+     <meta property="og:site_name" content="" />
+     <meta property="og:image" content="http://" />
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Título de tu página" />
     <meta name="twitter:description" content="Descripción de tu página" />
@@ -25,22 +38,28 @@
       name="twitter:image"
       content="URL de la imagen que quieres mostrar en Twitter"
     />
+    
 
     <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
     <link rel="manifest" href="site.webmanifest" />
-    <!-- icono de acceso para IOS -->
-    <link rel="apple-touch-icon" href="icon.png" />
-    <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
 
-    
     <link rel="stylesheet" href="css/style.css" />
-    
     
     <meta name="theme-color" content="#fafafa" />
     
-    <script></script>
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
+    <!-- <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5" /> -->
+
+    <!-- APPLE TOUCH ICON (iOS) -->
+    <link rel="apple-touch-icon" href="./img/favicon/icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png" />
+    
     
     <script src="preloader.js"></script>
+    <script src="./js/app.js" defer></script>
   </head>
   <body>
     <div id="container">
@@ -52,8 +71,14 @@
     
     
       </div>
-      <video src="/video/IMG_1757.mp4" muted autoplay controls></video>
+      <video src="./video/vadi_inocente.webm" muted autoplay controls id="video"></video>
       <!-- <video src="/video/IMG_1757.mp4" controls autoplay loop></video> -->
+      <button id="subscribe" class="main__button">Saber mas</button>
+
+
+
+
+
       <!-- Begin Brevo Form -->
 <!-- START - We recommend to place the below code in head tag of your website html  -->
 <style>
