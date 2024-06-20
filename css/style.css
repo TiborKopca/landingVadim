@@ -17,3 +17,34 @@
 /* Colores */
 
 /* ******************************** */
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: black;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+video{
+  /* position: absolute; */
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: auto;
+      object-fit: cover;
+      z-index:1;
+
+}
+sib-form{
+  position: absolute;
+  bottom: 0;
+}
+
+
+
